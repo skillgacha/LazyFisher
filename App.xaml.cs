@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace AutoClicker;
+namespace LazyFisher;
 
 /// <summary>
 /// Interaction logic for App.xaml
@@ -10,4 +10,3 @@ namespace AutoClicker;
 public partial class App : Application
 {
 }
-

@@ -5,9 +5,9 @@ using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Threading;
 using System.Windows.Input;
-using AutoClicker.Core;
+using LazyFisher.Core;
 
-namespace AutoClicker
+namespace LazyFisher
 {
     public partial class MainWindow : Window
     {
@@ -219,9 +219,9 @@ namespace AutoClicker
             return new TimeSpan(0, h, m, s, ms);
         }
 
-        private AutoClicker.Core.MouseButton GetMouseButton()
+        private LazyFisher.Core.MouseButton GetMouseButton()
         {
-            return (AutoClicker.Core.MouseButton)CboButton.SelectedIndex;
+            return (LazyFisher.Core.MouseButton)CboButton.SelectedIndex;
         }
 
         private ClickType GetClickType()

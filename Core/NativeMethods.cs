@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace AutoClicker.Core
+namespace LazyFisher.Core
 {
     public static class NativeMethods
     {

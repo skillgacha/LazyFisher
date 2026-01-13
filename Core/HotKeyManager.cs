@@ -1,8 +1,8 @@
 using System;
 using System.Windows.Interop;
-using AutoClicker.Core;
+using LazyFisher.Core;
 
-namespace AutoClicker.Core
+namespace LazyFisher.Core
 {
     public class HotKeyManager
     {

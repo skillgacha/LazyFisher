@@ -3,9 +3,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Runtime.InteropServices;
-using AutoClicker.Core;
+using LazyFisher.Core;
 
-namespace AutoClicker.Core
+namespace LazyFisher.Core
 {
     public enum MouseButton
     {

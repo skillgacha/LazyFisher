@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish EXE
-      run: dotnet publish LazyFisher.csproj -c Release -r win-x64 /p:PublishSingleFile=true /p:SelfContained=true /p:PublishReadyToRun=false -o ./publish
+      run: dotnet publish LazyFisher.csproj -c Release -r win-x64 /p:PublishSingleFile=true /p:SelfContained=true /p:EnableCompressionInSingleFile=true /p:PublishReadyToRun=false -o ./publish
 
     - name: Create Release
       uses: softprops/action-gh-release@v1

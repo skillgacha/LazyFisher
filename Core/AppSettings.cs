@@ -8,10 +8,10 @@ namespace LazyFisher.Core
     {
         public int Hours { get; set; } = 0;
         public int Minutes { get; set; } = 0;
-        public int Seconds { get; set; } = 1; // Default requested by user
+        public int Seconds { get; set; } = 8; // Default requested by user
         public int Milliseconds { get; set; } = 0;
 
-        public int MouseButtonIndex { get; set; } = 0; // 0=Left
+        public int MouseButtonIndex { get; set; } = 1; // 0=Left, 1=Right
         public int ClickTypeIndex { get; set; } = 0; // 0=Single
 
         public bool RepeatInfinite { get; set; } = true;

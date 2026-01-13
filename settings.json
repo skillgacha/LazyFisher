@@ -1,0 +1,19 @@
+{
+  "Hours": 0,
+  "Minutes": 0,
+  "Seconds": 1,
+  "Milliseconds": 0,
+  "MouseButtonIndex": 0,
+  "ClickTypeIndex": 0,
+  "RepeatInfinite": true,
+  "RepeatCount": 100,
+  "PositionCurrent": true,
+  "FixedX": 0,
+  "FixedY": 0,
+  "ClickDuration": 50,
+  "HotKey": 117,
+  "HotKeyModifiers": 0,
+  "AlwaysOnTop": true,
+  "WindowWidth": 400,
+  "WindowHeight": 600
+}

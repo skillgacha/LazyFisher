@@ -1,5 +1,7 @@
 # LazyFisher (Auto Clicker)
 
+![App Preview](assets/app_preview.png)
+
 シンプルで軽量な Windows 用自動連打ツールです。
 インストール不要で、ダウンロードして (`.exe`) を実行するだけですぐに使えます。
 
